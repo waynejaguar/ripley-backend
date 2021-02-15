@@ -1,0 +1,22 @@
+# generic spring configs
+spring:
+  jpa:
+    show-sql: true
+    open-in-view: false
+    properties.hibernate:
+      enable_lazy_load_no_trans: true
+  thymeleaf.enabled: false
+  main.banner-mode: off
+
+# ripley configs
+ripley:
+  postgres:
+    enable: true # if we should spin-up a PG instance
+    persistent: false # if we want to keep the data between runs
+    wait-timeout: 60 # second
+
+# specific test configs
+test:
+  golem:
+    # this token is valid Used on all integration tests
+    token: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjE4MDY1MDE3MiIsImV4cGlyZXNBdCI6MTg5MDQwOTE2MCwiaWF0IjoxNTc0Nzg5OTc3LCJleHAiOjE4OTAzNjU5NzcsImF1ZCI6IldhbG1hcnQgSVNEIiwiaXNzIjoiR29sZW0gQXV0aCJ9.Y_uJRQhp6KeJAAmsfPI89MU5mYO4uQ4RLyylS-vdd_KtyYrZeBAbwQvonnpIX1i4PiWppnsYXciu6rgN6g9iZA

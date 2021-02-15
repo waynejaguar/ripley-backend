@@ -1,0 +1,1 @@
+INSERT INTO users (username,  password,created_at, name, second_name,father_last_name, mother_last_name,email_user ) VALUES ('179103230','holamundo', now(), 'BRUCE','', 'WAYNE', '', 'WAYNEJAGUAR@MAIL.COM');
