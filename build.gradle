@@ -37,6 +37,7 @@ dependencies {
 
 	implementation platform('org.testcontainers:testcontainers-bom:1.14.1')
 	implementation('org.testcontainers:postgresql')
+	implementation 'com.sendgrid:sendgrid-java:4.7.1'
 
 
 	compileOnly 'org.projectlombok:lombok'
